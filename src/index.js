@@ -38,7 +38,7 @@ const projects = [
     title: 'Personal Portfolio',
     description: 'My Personal Portfolio Page',
     skills: ['HTML', 'CSS/SASS', 'Javascript','ReactJS', 'NodeJS', 'React-Router', 'AntD'],
-    url: 'https://efe-onoh.github.io/markdown-previewer/'
+    url: 'https://efe-onoh.github.io/personal-portfolio/'
   },
 ];
 
