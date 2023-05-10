@@ -5,7 +5,7 @@ import Projects from "../components/project/Projects";
 
 export default function IndexRouter({projects}) {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/personal-portfolio">
       <Routes>
         <Route path="/" element={<Portfolio projects={projects}/>}>
           <Route path="projects/:projectId" element={<Projects projects={projects} />} /> 
