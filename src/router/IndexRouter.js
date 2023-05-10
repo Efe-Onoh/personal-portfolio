@@ -5,7 +5,7 @@ import Projects from "../components/project/Projects";
 
 export default function IndexRouter({projects}) {
   return (
-    <BrowserRouter basename="/personal-portfolio">
+    <BrowserRouter basename="https://efe-onoh.github.io/personal-portfolio">
       <Routes>
         <Route path="/" element={<Portfolio projects={projects}/>}>
           <Route path="projects/:projectId" element={<Projects projects={projects} />} /> 
