@@ -5,7 +5,7 @@ import Projects from "../components/project/Projects";
 
 export default function IndexRouter({projects}) {
   return (
-    <HashRouter basename="https://efe-onoh.github.io/personal-portfolio">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Portfolio projects={projects}/>}>
           <Route path="projects/:projectId" element={<Projects projects={projects} />} /> 
